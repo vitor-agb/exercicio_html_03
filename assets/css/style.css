@@ -1,0 +1,173 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 40px;
+    color: #107c10;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.signup {
+    border: 5px solid #107c10;
+    color: #107c10;
+    font-size: 20PX;
+    width: 260px;
+    height: 40px;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.signup a {
+    text-decoration: none;
+    color: #107c10;
+}
+
+.signup:hover {
+    text-decoration: underline;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover; 
+    height: 500px;
+    
+}
+
+.banner_info {
+    /*background-image: url(../img/bg_color.png);*/
+    background-color: #171717;
+    opacity: .9;
+    width: 400px;
+    padding: 20px;
+}
+
+.banner_info h1 {
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 0px 1px 0px #555555 ;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner_info h2 {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 0px 1px 0px #555555 ;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+#details, 
+#plan {
+    display: flex;
+    justify-content: center;
+}
+
+.specs h1,
+.plan_title h1 {
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50;
+    padding: 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.specs_content {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.specs_item {
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: auto;
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+.specs_item h2 {
+    font-size: 17px;
+    
+}
+
+table {
+    color: #FFFFFF;
+    width: 990px;
+    background-color: #3e7b3f;
+    margin: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    width: 700px;
+    height: 700px;
+    
+
+}
+
+table .plans, 
+table .plansign {
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+}
+
+table img {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table .plansign {
+   background-color: #107c10;
+   border-radius: 50%;
+   color: #FFFFFF;
+   height: 80px;
+     
+}
+
+table .plansign:hover {
+    background-color: #3e7b3f;
+    border: 1px solid #107c10;
+}
