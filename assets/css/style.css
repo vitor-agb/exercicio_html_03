@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: center;
     height: auto;
-    width: 100vw;
+    width: 100%;
 }
 
 .container {
@@ -161,6 +161,7 @@ table img {
 
 table .plansign {
    background-color: #107c10;
+   border: 1px solid #107c10;
    border-radius: 50%;
    color: #FFFFFF;
    height: 80px;
@@ -168,6 +169,6 @@ table .plansign {
 }
 
 table .plansign:hover {
-    background-color: #3e7b3f;
-    border: 1px solid #107c10;
+    background-color: #0d640e;
+    border: 1px solid #0d640e;
 }
